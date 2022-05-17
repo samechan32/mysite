@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
 
 header {
@@ -7,6 +9,27 @@ header {
 	background-color: #00bfff;
 }
 
-.description {
-	background-color: #00bfff;
+.description img {
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    justify-content: flex-end
 }
+
+.description {
+	padding-bottom: 10;
+}
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.inline {
+	text-align: center;
+}
+.inline li {
+	display: inline;
+}
+

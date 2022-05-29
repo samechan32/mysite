@@ -20,6 +20,13 @@ header {
 	padding-bottom: 10;
 }
 
+.icon_color {
+	color: #00bfff;
+}
+
+.github_icon_color {
+	color: black;
+}
 
 ul {
 	list-style-type: none;
@@ -33,3 +40,12 @@ ul {
 	display: inline;
 }
 
+.footer_area {
+	height: 50px;
+}
+
+footer {
+	margin: 0 -200%; /* マージンを追記 */
+	padding: 0 200%; /* マージンで横にはみ出した部分を戻す */
+	background-color: #00bfff;
+}

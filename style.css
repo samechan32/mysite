@@ -1,51 +1,46 @@
 body {
-	text-align: center;
 	margin: 0px;
 	padding: 0px;
 }
 
-header {
-	color: white;
+.column {
+	height: 100vh;
+	width: 100%;
+}
+
+.same_image {
+	background: url(./images/IMG_3518.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+
+.text {
+	background: no-repeat top center;
+	background-size: cover;
 	background-color: #00bfff;
-}
-
-.description img {
-    width: 100px;
-    height: 100px;
-    border-radius: 75px;
-    justify-content: flex-end
-}
-
-.description {
-	padding-bottom: 10;
-}
-
-.icon_color {
-	color: #00bfff;
-}
-
-.github_icon_color {
-	color: black;
-}
-
-ul {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.inline {
+	color: white;
 	text-align: center;
 }
-.inline li {
-	display: inline;
+
+
+.twitter_icon {
+	color: white;
+	padding: 2%;
 }
 
-.footer_area {
-	height: 50px;
+.github_icon {
+	color: black;
+	padding: 2%;
 }
 
-footer {
-	margin: 0 -200%; /* マージンを追記 */
-	padding: 0 200%; /* マージンで横にはみ出した部分を戻す */
-	background-color: #00bfff;
+
+.instagram_icon {
+	color: green;
+	padding: 2%;
+}
+
+@media all and (min-width: 500px) {
+  .wrapper {
+    display: flex;
+  }
 }
